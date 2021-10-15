@@ -11,8 +11,4 @@ namespace Functions
 		Sleep(2000);
 		ExitProcess(0);
 	}
-
-	string Log() {
-		cout << "[ " << dye::aqua("INF") << " ] ";
-	}
 }
