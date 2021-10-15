@@ -6,8 +6,8 @@ using namespace std;
 
 namespace Functions
 {
-	void Exit(const std::string message) {
-		std::cout << message << std::endl;
+	void Exit(const string message) {
+		cout << message << endl;
 		Sleep(2000);
 		ExitProcess(0);
 	}
